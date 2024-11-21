@@ -21,18 +21,18 @@ PLOT_ONLE_ACTIVE_TILES = True
 
 positions_url = r"https://raw.githubusercontent.com/techtile-by-dramco/plotter/refs/heads/main/src/TechtilePlotter/positions.yml"
 
-# active_tiles = [
-#     "A05", "A06", "A07", "A08", "A09", "A10",
-#     "B05", "B06", "B07", "B09", "B10",
-#     "C05", "C06", "C07", "C08", "C09", "C10",
-#     "D05", "D07", "D08", "D09", "D10",
-#     "E05", "E06", "E08", "E09",
-#     "F06", "F07", "F09",
-#     "G05", "G07", "G08"
-# ]
 active_tiles = [
+    "A05", "A06", "A07", "A08", "A09", "A10",
+    "B05", "B06", "B07", "B09", "B10",
+    "C05", "C06", "C07", "C08", "C09", "C10",
+    "D05", "D07", "D08", "D09", "D10",
+    "E05", "E06", "E08", "E09",
+    "F06", "F07", "F09",
     "G05", "G07", "G08"
 ]
+# active_tiles = [
+#     "G05", "G07", "G08"
+# ]
 
 # Retrieve the file content from the URL
 response = requests.get(positions_url, allow_redirects=True)
