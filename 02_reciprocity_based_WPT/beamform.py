@@ -16,7 +16,7 @@ plt.rcParams["animation.ffmpeg_path"] = ffmpeg_path
 
 #################### CONFIGURATIONS ####################
 PLOT_ONLY_XY_PLANE = False
-PLOT_ONLE_ACTIVE_TILES = True
+PLOT_ONLE_ACTIVE_TILES = False
 ########################################################
 
 positions_url = r"https://raw.githubusercontent.com/techtile-by-dramco/plotter/refs/heads/main/src/TechtilePlotter/positions.yml"
